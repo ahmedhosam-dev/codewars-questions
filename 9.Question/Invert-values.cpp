@@ -1,8 +1,12 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
-std::vector<int> invert(std::vector<int> values)
+using namespace std;
+
+vector<int> invert(vector<int> values)
 {
-    return {};
+	for (int &val: values)	
+		val = -val;
+    return values;
 }
-

@@ -1,8 +1,11 @@
+/** Description:
+ * Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+ */
+
 #include <iostream>
+#include <string>
 
 using namespace std;
-
-#include <string>
 
 string removeExclamationMarks(string str){
     string newStr = "";

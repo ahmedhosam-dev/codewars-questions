@@ -1,3 +1,10 @@
+/** Description:
+ * Complete the solution so that it reverses the string passed into it.
+ *
+ * 'world'  =>  'dlrow'
+ * 'word'   =>  'drow'
+ */
+
 #include <iostream>
 #include <string>
 
@@ -10,10 +17,4 @@ string reverseString (string str ) {
         newStr += str[i];
 
     return newStr;
-}
-
-int main() {
-    cout << reverseString("hello") << endl;
-
-    return 0;
 }

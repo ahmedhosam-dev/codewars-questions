@@ -17,9 +17,8 @@ string no_space(const string& x)
 {
     string noSpaces = "";
     for (char c: x){
-        if (c == ' ')
-            continue;
-        noSpaces.push_back(c);
+        if (c != ' ')
+            noSpaces.push_back(c);
     }
    return noSpaces;
 }

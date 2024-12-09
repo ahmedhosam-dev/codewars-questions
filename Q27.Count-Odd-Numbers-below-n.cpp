@@ -8,27 +8,5 @@
 */
 
 int odd_count(int n){
-    if (n == 0)
-        return 0; 
-    return (n % 2 == 0) ? odd_count(n - 1): odd_count(n - 1);
+    return n/2;
 }
-
-int old_school(int n) {
-    int result = 0;
-    for (int num = n; num > 0; num--) {
-        if (num % 2 == 0) {
-            result++;
-        }
-    }
-    return result;
-}
-
-#include <iostream>
-
-int main () {
-    int number = 25;
-    std::cout << odd_count(number) << std::endl;
-    std::cout << old_school(number) << std::endl;
-    return 0;
-} 
-

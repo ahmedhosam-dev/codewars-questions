@@ -22,10 +22,3 @@ int getRealFloor(int f) {
         return f - 2 ;
     else return f;
 }
-
-int main () {
-    for (int i = -5; i<20; i++) {
-        std::cout << i << " -> " << getRealFloor(i) << std::endl;
-    }
-    return 0;
-}

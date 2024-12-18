@@ -5,6 +5,7 @@
  * 97 --> 'a'
  * 48 --> '0
  * For ASCII table, you can refer to http://www.asciitable.com/
+ * URL: https://www.codewars.com/kata/55ad04714f0b468e8200001c
 */
 
 char get_char(int i) {
